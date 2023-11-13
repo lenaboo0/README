@@ -1,0 +1,46 @@
+
+[*WMC Logging begun at 2023/10/27 - 00:04:17.  Logging at level: '4'.  OS is NT.  OSVer is 10.0.22621.0.2428. System Lang is 1033. Prev version system is 12.0.22621.2361. Setup version 12.0.22621.1.]
+Checking for Playlist Obfuscation.
+Playlist location not obfuscated. Doing Obfuscation now.
+Obfuscation for Playlist location succeeded.
+Current command line: '/FirstLogon'.
+
+[*WMC Logging begun at 2023/10/27 - 00:04:18.  Logging at level: '4'.  OS is NT.  OSVer is 10.0.22621.0.2428. System Lang is 1033. Prev version system is 12.0.22621.2361. Setup version 12.0.22621.1.]
+Checking for Playlist Obfuscation.
+Playlist location already obfuscated.
+Current command line: '/FirstLogon'.
+
+[*WMC Logging begun at 2023/10/30 - 20:17:06.  Logging at level: '4'.  OS is NT.  OSVer is 10.0.22621.0.2506. System Lang is 1033. Prev version system is 12.0.22621.1. Setup version 12.0.22621.1.]
+ERROR: Caller attempted to run 32bit unregmp2 on 64bit Windows.  Call being switched to correct unregmp2.
+
+[*WMC Logging begun at 2023/10/30 - 20:17:06.  Logging at level: '4'.  OS is NT.  OSVer is 10.0.22621.0.2506. System Lang is 1033. Prev version system is 12.0.22621.1. Setup version 12.0.22621.1.]
+  Services information URL is : 'res://wmploc.dll/Service_NoFunc.htm&version=12.0.22621.1&locale=409&userlocale=409&geoid=f4&parch=x64&arch=x86'.
+  Creating download manager.  We 'will not' force a connection.
+  GetConnectedStateEx: User 'is' connected via LAN.
+  System is already on-line.
+  The system is currently on-line.
+20:17:06 - ##### Beginning download.  Download will be to 'C:\Users\celen\AppData\Local\Temp\tmp97125.WMC\allservices.xml'.
+20:17:06 - Starting download.
+20:17:06 - Download manager now connecting to URL.
+ERROR: Could not open URL.  Result: '0x80072ee7'.
+20:17:07 - Download complete.
+  Download failed for /Service_NoFunc.htm&version=12.0.22621.1&locale=409&userlocale=409&geoid=f4&parch=x64&arch=x86 at 0 of 0 bytes.
+20:17:07 - Error
+ERROR: Package download failure has occured.  Result: 0x80072efd.
+ERROR: Download failed.  Result: '0x80072efd'.
+Service data gathering complete: 0 interesting service(s) found. Result 0x80072efd.
+User chose Express mode.
+  Starting Media Library migration. 
+User chose Custom mode.
+=====Setup preparing to download needed files from network.
+  No downloads required.
+
+Download complete.  Result: '0x0'.
+=====Installing Install list.  Last result: 0x2.
+System restore turned off for this install.
+
+Setup complete.  Result: '0x0'.
+Starting process 'C:\WINDOWS\system32\unregmp2.exe /ShowWMP /SetShowState /CreateMediaLibrary'.
+  Exited library thread.
+  Media Library import completed.
+Setup succeeded.  WMP will be launched now.
